@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Encurtador de Links</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container mt-5">
+		<h1 class="text-center mb-4">Encurtador de Links</h1>
+		<div class="form-group">
+			<label for="url">Insira o link que deseja encurtar:</label>
+			<input type="text" class="form-control" id="url" placeholder="https://www.example.com">
+			<small class="form-text text-muted">Exemplo: https://www.example.com</small>
+		</div>
+		<button type="button" class="btn btn-primary mt-3" onclick="encurtarLink()">Encurtar</button>
+		<div class="mt-3">
+			<label for="resultado">Resultado:</label>
+			<input type="text" class="form-control" id="resultado" readonly>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
